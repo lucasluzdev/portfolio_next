@@ -1,0 +1,14 @@
+const aboutMe = [
+    { id: 1, title: "Frontend, to fit your needs", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/frontend.png" },
+    { id: 2, title: "Backend to solve your problems", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/backend.png" },
+    { id: 3, title: "Mobile, to access in the palm of your hand", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/mobile.png" },
+    { id: 4, title: "Two's company, three's a Fullstack!", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/fullstack.png" },
+    { id: 5, title: "Don't forget to store your data", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/database.png" },
+    { id: 6, title: "DevOps, so you can be online 24/7/365", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/devops.png" },
+    { id: 7, title: "Scalability, while saving every penny", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/cloud.png" },
+    { id: 8, title: "Less Artificial and more Intelligence", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/ai.png" },
+    { id: 9, title: "It's faster to grow with mentorship", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/mentor.png" },
+    { id: 10, title: "Need someone to talk? You've found him!", content: "Fullstack Software Engineer, Teacher and Speaker with 6 years of experience developing small and large scale desktop, web, mobile and DevOps projects.", image: "/assets/img/aboutme/speaker.png" },
+];
+
+export default aboutMe;
