@@ -57,7 +57,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                                         </div>
                                         <div>
                                             {website.length ? (<a href={website} target="_blank"><button className="bg-green-600 hover:bg-[#ceab5d] text-white font-bold py-2 px-4 rounded">Visit website</button></a>) : ''}
-                                            {Object.keys(github).map(key => github[key].length ? (<a href={github[key]} target="_blank"><button className="bg-gray-600 hover:bg-[#ceab5d] text-white font-bold py-2 px-4 rounded">{key} repo</button></a>) : '')}
+                                            {Object.keys(github).map(key => github[key].length ? (<a key={key} href={github[key]} target="_blank"><button className="bg-gray-600 hover:bg-[#ceab5d] text-white font-bold py-2 px-4 rounded">{key} repo</button></a>) : '')}
                                         </div>
                                     </div>
 

@@ -33,7 +33,7 @@ export default function Home() {
         <div className='flex flex-col justify-center align-items-center items-center lg:h-[60vh] lg:mt-0 mt-10 h-[50vh]'>
 
           <div className='basis-2/12'>
-            <h1 className='lg:text-2xl text-xl text-center md:text-left lg:mb-2 mb-5'>Hello there! I'm <strong className='text-[#ceab5d]'>Lucas Luz</strong>&nbsp;🖖🏻</h1>
+            <h1 className='lg:text-2xl text-xl text-center md:text-left lg:mb-2 mb-5'>Hello there! I am <strong className='text-[#ceab5d]'>Lucas Luz</strong> 🖖🏻</h1>
             <p className='lg:text-3xl text-xl'>A <strong className='showoff'>Fullstack Software Engineer, Programming Teacher and Speaker</strong> from São Paulo, Brazil! I help companies to build, launch and grow their products with modern technologies, teach people about software development and learn new things everyday!</p>
           </div>
         </div>
