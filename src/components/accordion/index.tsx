@@ -32,9 +32,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, role, timerange, content }
 
             </div>
             {isOpen && (
-                <div className="mt-2">
-                    <p>{content}</p>
-                </div>
+                <div className="mt-2 ml-2 px-5 workexp-list" dangerouslySetInnerHTML={{ __html: content }} />
             )}
         </div>
     );
